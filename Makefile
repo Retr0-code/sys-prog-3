@@ -1,6 +1,6 @@
 CC := /usr/bin/gcc
 
-all: task1 task2 task3 task4
+all: clean | task1 task2 task3 task4
 
 task1:
 	$(CC) -o task1 src/task1.c
